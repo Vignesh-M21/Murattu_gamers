@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Boostrap link -->
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+     <!-- style link -->
+     <link rel="stylesheet" href="./style.css">
+     <!-- Fontawesome link -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>CR/video</title>
+</head>
+<body onload="ajax_function(hog,document.getElementById('load_hog'))">
+       <!-- nav bar -->
+       <nav class="navbar navbar-expand-lg sticky-top navbar_custom">
+        <div class="container-fluid">
+            <i class="fa-solid fa-bars play_menu" id="navplaybar"></i>
+            <a href="./index.html" class="navbar-brand">
+                <img src="./image/logo.png" alt="" class="navbar_logo">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuList"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse me-5 " id="menuList">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar_menu">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link custom_link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./About.html" class="nav-link custom_link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./Game_play.html" class="nav-link custom_link active_link">GamePlay</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./Contact.html" class="nav-link custom_link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav> 
+<!-- ---------navbar end---------- -->
+<!-- --------Grid template------ -->
+<div class="container-fluid">
+    <div class="row custom_row">
+        <div class="col-lg-3 col-sm-3 bg-light custom_left" id="List_play">
+        <i class="fa fa-times play_close" id="navclosebar"></i>
+          <h3 class="m-3">Clash Royal</h3>
+          <h4 class="ms-5">Best Hog deck</h4>
+            <ul style="list-style: none;" class="ms-5 auto_ul">
+                <li><a class="text-decoration-none custom_video_link video_active_link" onclick="ajax_function(hog,loading_div)">Hog 2.6</a></li>
+            <h4 class="cu_h4">Goblin Barrel</h4>
+                <li><a class="text-decoration-none custom_video_link" onclick="ajax_function(GOblin_1,loading_div)">Goblin Barrel with princess</a></li>
+       
+            <h3 class="cu_h3">Walking Death</h3>
+          <h4 class="cu_h4">Chapter-1</h4>
+                <li><a class="text-decoration-none custom_video_link" onclick="ajax_function(wd_e1,loading_div)">Episode1:A new day</a></li>
+                <li><a class="text-decoration-none custom_video_link" onclick="ajax_function(wd_e2,loading_div)">Episode2:</a></li>
+            <h3 class="cu_h3">Darkness Rises</h3>
+          <h4 class="cu_h4">PVE</h4>
+                <li><a class="text-decoration-none custom_video_link" onclick="ajax_function(dr_ba_1,loading_div)">Ranging Bakura</a></li>
+                <li><a class="text-decoration-none custom_video_link" onclick="ajax_function(dr_hp2_1,loading_div)">Hell Phase 2</a></li>
+            </ul>
+      </div>
+        <div class="col-md-9 col-sm-9 bg-light custom_right">
+            <div id="load_hog">
+                   
+            </div>
+            <div class="container-fluide bg-dark text-light overflow-hidden mt-4">
+              <div class="row p-3">
+                <div class="col-md-4">
+                  <h3>Murattu Gamer</h3>
+                  <p>This website is purpose form make you entertainment with the game play so relax and site back to enjoy the video. And keep suport with us</p>
+                  <hr class="text-light">
+                </div>
+                <div class="col-md-4">
+                  <h3>video</h3>
+                  <a href="./Game_play.html?hog" class="d-block text-light ms-5">Hog 2.6</a>
+                  <a href="./Game_play.html?WalkingDeath" class="d-block text-light ms-5">Walkig Death</a>
+                  <a href="./Game_play.html?DarknessRises" class="d-block text-light ms-5">Darkness Rises</a>
+                  <hr class="text-light">
+          
+                </div>
+                <div class="col-md-4">
+                  <h3>Help</h3>
+                  <P>Email:-<a href="#" class="text-decoration-none text-light ">abcd@gmail.com</a></P>
+                  <P>Follow:-<a href="#" class=" text-light ">@murattu gamer</a></P>
+                  <a href="./Contact.html" class="d-block text-light">contact form</a>
+                  <hr class="text-light">
+                </div>
+                <center>
+                  <a href="https://www.facebook.com/m.vignesh.5661" target="_blank"><i class="fa-brands fa-facebook custom_icons"></i></a>
+                  <a href="https://www.instagram.com/vignesh21082000/" target="_blank"><i class="fa-brands fa-instagram custom_icons"></i></a>
+                  <a href="https://www.youtube.com/channel/UCm1_o6dvrtyUpyjTrdmfaVQ/featured" target="_blank"><i class="fa-brands fa-youtube custom_icons"></i></a>
+                </center>
+              </div>  
+            </div>
+              
+      </div>
+    </div>
+</div>
+<!-- -----------end template---------------- -->
+
+<!-- --------script--------- -->
+<script>
+    var hog = './Game_pay/hog2.6.html';
+    var GOblin_1 = './Game_pay/new.html';
+    var wd_e1 = './Game_pay/WD_E1.html';
+    var wd_e2 = './Game_pay/WD_E2.html';
+    var dr_ba_1 = './Game_pay/DR_BA_1.html';
+    var dr_hp2_1= './Game_pay/DR_HP2_1.html';
+</script>
+ <!-- bootsrap script -->
+ <script src="./script.js"></script>
+ <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

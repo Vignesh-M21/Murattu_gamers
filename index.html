@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Boostrap link -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <!-- style link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- title -->
+    <title>CR-Game</title>
+</head>
+<body>
+    <!-- nav bar -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar_custom">
+        <div class="container-fluid">
+            <a href="./index.html" class="navbar-brand">
+                <img src="./image/logo.png" alt="" class="navbar_logo">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuList"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse me-5 " id="menuList">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar_menu">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link custom_link active_link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./About.html" class="nav-link custom_link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./Game_play.html" class="nav-link custom_link">GamePlay</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./Contact.html" class="nav-link custom_link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav> 
+<!-- ---------navbar end---------- -->
+<!-- ---------------------------------------------------------------------------------- -->
+<!-- -----------carousel start---------- -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="10000">
+        <img src="./image/bg-12.jpg" class="d-block w-100 custom_slide" alt="...">
+        <div class="carousel-caption d-md-block">
+            <h1 class="carousel_title display-2">Helo Morattu Gamers</h1>
+            <p class="text-light carousel_para">Welcome to our site enjoy to watch our game play.</p>
+            <a class="btn btn-outline-light btn-lg" role="button" aria-disabled="true" href="https://www.youtube.com/channel/UCm1_o6dvrtyUpyjTrdmfaVQ/featured" target="_blank">subscribe the channel</a>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="./image/bg-11.jpg" class="d-block w-100 custom_slide" alt="...">
+        <div class="carousel-caption d-md-block">
+            <h1 class="display-2 carousel_title text-light">Recent Update</h1>
+          <p class="text-light carousel_para">This week Hog 2.6 watch & enjoy the serise</p>
+          <a class="btn btn-lg btn-outline-light" role="button" aria-disabled="true" href="./Game_play.html">Go to--></a>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./image/bg-3.jpg" class="d-block w-100 custom_slide" alt="...">
+        <div class="carousel-caption d-md-block">
+            <h1 class="display-2 carousel_title text-light">Contact Us</h1>
+          <p class="text-light carousel_para">Need any help contact us.</p>
+          <a class="btn btn-lg btn-outline-light custom_btn3" role="button" aria-disabled="true" href="/">Contact</a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- ------carousel end------- -->
+  <!-- ------------------------------------------------------------------------------------ -->
+  <!-- title line -->
+  <div class="container-fluide">
+    <h2 class=" text-center  bg-light p-3 custom_title" style="font-family: 'Goblin One', cursive;">Must Watch</h2><hr style="margin-top: -10px;">
+    
+  </div>
+  <!-- title line  end -->
+<!-- ----------------------------------------------------------------------------------------- -->
+
+  <!-- flip card  -->
+<div class="container-fluide overflow-hidden">
+  <div class="row text-center d-md-flex justify-content-md-center align-md-items-md-center">
+      <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 m-3">
+        <div class="flip-card">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="./image/Hog_2.6.jpg" alt="Avatar" style="width:100%;height:100%;border-radius: 10px;">
+            </div>
+            <div class="flip-card-back">
+              <h2 class="mt-3">Hog 2.6</h2>
+              <p class="p-2">This is one of the best hog fastest cycle deck. In this deck can defend most of the other deck because of low eliser ratio.</p>
+              <a href="./Game_play.html?hog" class="btn btn-Flip-card">Go to</a>
+            </div>
+          </div>
+        </div>
+          </div>
+            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 m-3">
+              <div class="flip-card">
+                <div class="flip-card-inner">
+                  <div class="flip-card-front">
+                    <img src="./image/the-walking-dead-game.jpg" alt="Avatar" style="width:100%;height:100%;border-radius: 10px;">
+                  </div>
+                  <div class="flip-card-back">
+                    <h2 class="mt-3">Walking Death</h2>
+                    <p class="p-2">Watch the thriller story based game. The game have more voilencs content so 16+ only watch</p>
+                    <a href="./Game_play.html?WalkingDeath" class="btn btn-Flip-card">Go to</a>
+                  </div>
+                </div>
+              </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 col-lg-3 m-3">
+                  <div class="flip-card">
+                    <div class="flip-card-inner">
+                      <div class="flip-card-front">
+                        <img src="./image/darkness_rises.jpg" alt="Avatar" style="width:100%;height:100%;border-radius: 10px;">
+                      </div>
+                      <div class="flip-card-back">
+                        <h2 class="mt-3">Darkness RIses</h2>
+                        <p class="p-2">This game have great story line. PVE adventure battle with good graphics must watch</p>
+                        <a href="./Game_play.html?DarknessRises" class="btn btn-Flip-card">Go to</a>
+                      </div>
+                    </div>
+                  </div>
+                    </div>
+            </div>
+      </div>
+<!-- flip card end -->
+<!-- ------------------------------------------------------------------------------------------ -->
+  <!-- about us -->
+  <h3 class="text-center bg-light p-3" style="font-family: 'Goblin One', cursive;">About us </h3><hr style="margin-top: -10px;">
+   
+  <div class="container d-flex justify-content-center align-items-center">
+  <div class="card mb-5 d-flex flex-lg-row overflow-hidden" style="width: 100%;">
+    <img src="./image/cr-logo.jpg" class="card-img-top About_image" alt="...">
+    <div class="card-body">
+      <h5 class="card-title">Moratu Gamer</h5>
+      <p class="card-text">This is Viky you admin of the page. We hard to making video and upload So plz support our channel.</p>
+      <a href="https://www.youtube.com/channel/UCm1_o6dvrtyUpyjTrdmfaVQ/featured" target="_blank" class="btn btn-sm btn-grad" style="width: 200px;">Goto channel</a>
+    </div>
+  </div>
+  </div>
+  <!-- about us end -->
+  <!-- ----contact----- -->
+  <!-- <h3 class="text-center bg-light p-3" style="font-family: 'Goblin One', cursive;">contact</h3><hr> -->
+  <div class="container-fluide bg-dark text-light overflow-hidden">
+    <div class="row p-3">
+      <div class="col-md-4">
+        <h3>Murattu Gamer</h3>
+        <p>This website is purpose form make you entertainment with the game play so relax and site back to enjoy the video. And keep suport with us</p>
+        <hr class="text-light">
+      </div>
+      <div class="col-md-4">
+        <h3>video</h3>
+        <a href="./Game_play.html?hog" class="d-block text-light ms-5">Hog 2.6</a>
+        <a href="./Game_play.html?WalkingDeath" class="d-block text-light ms-5">Walkig Death</a>
+        <a href="./Game_play.html?DarknessRises" class="d-block text-light ms-5">Darkness Rises</a>
+        <hr class="text-light">
+
+      </div>
+      <div class="col-md-4">
+        <h3>Help</h3>
+        <P>Email:-<a href="#" class="text-decoration-none text-light ">abcd@gmail.com</a></P>
+        <P>Follow:-<a href="#" class=" text-light ">@murattu gamer</a></P>
+        <a href="./Contact.html" class="d-block text-light">contact form</a>
+        <hr class="text-light">
+      </div>
+      <center>
+        <a href="https://www.facebook.com/m.vignesh.5661" target="_blank"><i class="fa-brands fa-facebook custom_icons"></i></a>
+        <a href="https://www.instagram.com/vignesh21082000/" target="_blank"><i class="fa-brands fa-instagram custom_icons"></i></a>
+        <a href="https://www.youtube.com/channel/UCm1_o6dvrtyUpyjTrdmfaVQ/featured" target="_blank"><i class="fa-brands fa-youtube custom_icons"></i></a>
+      </center>
+    </div>  
+  </div>
+  <!-- ------contact------ -->
+      <!-- bootsrap script -->
+      <script src="./script.js"></script>
+      <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

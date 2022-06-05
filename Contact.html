@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Boostrap link -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+        <!-- style link -->
+        <link rel="stylesheet" href="./style.css">
+        <!-- Fontawesome link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- title -->
+    <title>MG/Contact</title>
+</head>
+<body>
+    <!-- ----Nav------ -->
+    <nav class="navbar navbar-expand-lg sticky-top navbar_custom">
+        <div class="container-fluid">
+            <a href="./index.html" class="navbar-brand">
+                <img src="./image/logo.png" alt="" class="navbar_logo">
+            </a>
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuList"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse me-5 " id="menuList">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 navbar_menu">
+                    <li class="nav-item">
+                        <a href="./index.html" class="nav-link custom_link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./About.html" class="nav-link custom_link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./Game_play.html" class="nav-link custom_link">GamePlay</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./Contact.html" class="nav-link custom_link active_link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav> 
+<!-- contact -->
+<section class="contact-us">
+    <h4>CONTACT US</h4>
+    <div class="row1">
+        <div class="contact-col">
+            <div>
+                <i class="fa-solid fa-envelope contact_icon"></i>
+                <span>
+                    <h5>thiru25082000@gmail.com</h5>
+                    <p>Email us your query</p>
+                </span>
+            </div>
+            <div>
+                <i class="fa-brands fa-instagram-square contact_icon"></i>
+                <span>
+                    <h5><a href="https://www.instagram.com/vignesh21082000/" target="_blank">vignesh21082000</a></h5>
+                    <p>Instagram follow us and chart us</p>
+                </span>
+            </div>
+
+        </div>
+        <div class="contect-col">
+            <form name="contact" method="POST" data-netlify="true">
+                <input type="text" name="name" placeholder="Enter your name" required>
+                <input type="email" name="email" placeholder="Enter email address" required>
+                <input type="text" name="subject" placeholder="Enter your subject" required>
+                <textarea  rows="8" name="message" placeholder="Message" required></textarea>
+                <button type="submit" class="hero-btn">Send Message</button>
+
+            </form>
+        </div>
+    </div>
+</section>
+ <!-- -----footer----- -->
+ <div class="container-fluide bg-dark text-light overflow-hidden mt-5">
+    <div class="row p-3">
+      <div class="col-md-4">
+        <h3>Murattu Gamer</h3>
+        <p>This website is purpose form make you entertainment with the game play so relax and site back to enjoy the video. And keep suport with us</p>
+        <hr class="text-light">
+      </div>
+      <div class="col-md-4">
+        <h3>video</h3>
+        <a href="./Game_play.html?hog" class="d-block text-light ms-5">Hog 2.6</a>
+        <a href="./Game_play.html?WalkingDeath" class="d-block text-light ms-5">Walkig Death</a>
+        <a href="./Game_play.html?DarknessRises" class="d-block text-light ms-5">Darkness Rises</a>
+        <hr class="text-light">
+
+      </div>
+      <div class="col-md-4">
+        <h3>Help</h3>
+        <P>Email:-<a href="#" class="text-decoration-none text-light ">abcd@gmail.com</a></P>
+        <P>Follow:-<a href="#" class=" text-light ">@murattu gamer</a></P>
+        <a href="./Contact.html" class="d-block text-light">contact form</a>
+        <hr class="text-light">
+      </div>
+      <center>
+        <a href="https://www.facebook.com/m.vignesh.5661" target="_blank"><i class="fa-brands fa-facebook custom_icons"></i></a>
+        <a href="https://www.instagram.com/vignesh21082000/" target="_blank"><i class="fa-brands fa-instagram custom_icons"></i></a>
+        <a href="https://www.youtube.com/channel/UCm1_o6dvrtyUpyjTrdmfaVQ/featured" target="_blank"><i class="fa-brands fa-youtube custom_icons"></i></a>
+      </center>
+    </div>  
+  </div>
+    <!-- bootsrap script -->
+    <script src="./script.js"></script>
+    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
